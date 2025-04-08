@@ -1,0 +1,14 @@
+{% extends 'bib/base.html' %}
+
+
+{% block main %}
+
+    <p>Livros:</p>
+    <ul>
+        {% for livro in livros.all %}
+        <li> {{ livro}} </li>
+        {% endfor %}
+    </ul>
+
+{% endblock %}
+

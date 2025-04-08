@@ -1,0 +1,11 @@
+{% extends 'bib/base.html' %}
+
+
+{% block main %}
+
+    <h2> {{ autor.nome }} </h2>
+    <p> nacionalidade: {{ autor.nacionalidade}} </p>
+
+    <img src="{{ autor.retrato.url }}">
+
+{% endblock %}

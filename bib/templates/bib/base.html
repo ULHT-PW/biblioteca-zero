@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <style>
+            body {background:khaki;}
+        </style>
+
+    </head>
+    <body>
+
+        <header>
+            <h1>Biblioteca </h1>
+            <nav>
+                <a href="{% url 'autores' %}">Autores</a>
+                <a href="{% url 'livros' %}">Livros</a>
+            </nav>
+        </header>
+
+        <main>
+           {% block main %}
+           {% endblock %}
+        </main>
+
+        <footer>ULusofona, 2025</footer>
+
+    </body>
+</html>

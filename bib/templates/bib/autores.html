@@ -1,0 +1,13 @@
+{% extends 'bib/base.html' %}
+
+
+{% block main %}
+
+    <p>Autores:</p>
+    <ul>
+        {% for autor in autores.all %}
+        <li> <a href="{% url 'autor_path' autor.id %}"> {{ autor}} </a> </li>
+        {% endfor %}
+    </ul>
+
+{% endblock %}
