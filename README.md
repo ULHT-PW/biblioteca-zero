@@ -1,11 +1,9 @@
 # biblioteca-zero
 
-Aplicação desenvolvida na aula teórica: https://bibliotecalusofona.pythonanywhere.com/bib/autores
-
-### Recursos
-* Aplicação biblioteca: https://bibliotecalusofona.pythonanywhere.com/
-* Código: https://github.com/ULHTPW/bibliotecalusofona/tree/main/biblioteca
+Projeto desenvolvido na aula teórica com várias aplicações: 
 * Aplicação admin (usr:admin, pwd:admin): https://bibliotecalusofona.pythonanywhere.com/admin/
+* aplicação n00b: https://bibliotecalusofona.pythonanywhere.com/n00b/index
+* aplicação bib: https://bibliotecalusofona.pythonanywhere.com/bib/autores
 
 ### Passos a Rever
 
